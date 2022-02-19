@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
 </head>
 <body>
-    <h1>Diego de Paula Carvalho</h1>
+    <main id="container">
+        <aside id="bioContainer">
+            <h2>Diego Carvalho</h2>
+            <img id="bioImage" src="imagens/85d8c721-4c6c-4210-b77f-e9e79a3ad4b0.jpg" alt="Diego Carvalho">
+            <p>Olá meu nome é Diego Carvalho e sou <span class="highlight">Desenvolvedor FullStack</span></p>
+            <p id="welcomeText">Seja bem vindo!</p>
+            <ul id="socialContainer">
+                <li><a href="http://wa.me/5512991759364" target="blank"><ion-icon name="logo-whatsapp"></a></li>
+            </ul>
+            <div id="emailContainer">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:diegodpcarvalho@gmail.com">diegodpcarvalho@gmail.com</a>
+            </div>
+        </aside>
+        <section id="aboutContainer">
+            <h1 id="nome">Diego Carvalho</h1>
+            <p id="title"><span class="highlight">Desenvolvedor Fullstack</span></p>
+            <p class="description">Sou estudante de <spam class="highlight">Engenharia de Software</spam>, amo programação e pentest, estudo todos os dias para me tornar cada vez melhor e escrever código de qualidade</p>
+            <a href="https://github.com/diegodpcarvalho" id="btnProjects"><ion-icon name="share-social-outline"></ion-icon><span> Ver Projetos</span></a>
+            <h2 id="skillsSectionTitle">Minhas Skills</h2>
+            <p class="description">Tecnologias que domino</p>
+            <div id="skillContainer">
+                <div class="skillsbox">
+                    <p class="skillTitle">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-jquery-plain colored"></i>
+                </div>
+                <div class="skillsbox">
+                    <p class="skillTitle">Back-end</p>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+                <div class="skillsbox">
+                    <p class="skillTitle">Frameworks</p>
+                    <i class="devicon-laravel-plain colored"></i>
+                    <i class="devicon-vuejs-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                </div>
+                <div class="skillsbox">
+                    <p class="skillTitle">Tools</p>
+                    <i class="devicon-linux-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
