@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Carvalho | Security Research</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <main id="container">
+
+        <aside id="bioContainer">
+            <h2>Diego Carvalho</h2>
+            <img id="bioImage" src="imagens/85d8c721-4c6c-4210-b77f-e9e79a3ad4b0.jpg" alt="Diego Carvalho">
+
+            <p>Hello, my name is Diego Carvalho and I am a <span class="highlight">Software Engineer & Security Enthusiast</span>.</p>
+            <p id="welcomeText">Welcome to my research space.</p>
+
+            <ul id="socialContainer">
+                <li>
+                    <a href="http://wa.me/5512991759364" target="_blank">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+
+            <div id="emailContainer">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:diegodpcarvalho@gmail.com">diegodpcarvalho@gmail.com</a>
+            </div>
+        </aside>
+
+        <section id="aboutContainer">
+            <h1 id="nome">Diego Carvalho</h1>
+            <p id="title"><span class="highlight">Information Security Analyst</span></p>
+
+            <p class="description">
+                I am a <span class="highlight">Software Engineer</span> focused on application security, penetration testing, and secure architecture.
+                I document my learning process, labs, and real-world vulnerability research through technical write-ups.
+            </p>
+
+            <a href="https://github.com/diegodpcarvalho" id="btnProjects" target="_blank">
+                <ion-icon name="share-social-outline"></ion-icon>
+                <span> View GitHub</span>
+            </a>
+
+            <h2 id="skillsSectionTitle">Security Write-Ups & Research</h2>
+            <p class="description">
+                Technical documentation of penetration testing labs, vulnerability research, exploit development, and defensive analysis.
+            </p>
+
+            <div id="skillContainer">
+
+                <div class="skillsbox">
+                    <p class="skillTitle">Hack The Box</p>
+                    <p>
+                        Detailed walkthroughs covering enumeration, exploitation, privilege escalation, and post-exploitation techniques.
+                    </p>
+                    <a href="#">View Write-Ups</a>
+                </div>
+
+                <div class="skillsbox">
+                    <p class="skillTitle">Web Application Security</p>
+                    <p>
+                        Research and analysis of vulnerabilities such as LFI, RCE, SQL Injection, authentication bypass, and logic flaws.
+                    </p>
+                    <a href="#">Read Articles</a>
+                </div>
+
+                <div class="skillsbox">
+                    <p class="skillTitle">Red & Blue Team Studies</p>
+                    <p>
+                        Practical experiments involving Active Directory attacks, log analysis, detection engineering, and hardening strategies.
+                    </p>
+                    <a href="#">Explore Research</a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
